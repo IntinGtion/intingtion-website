@@ -1,0 +1,11 @@
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+
+# Beispiel: alte, "schöne" URLs auf deine echten HTML-Dateien leiten
+RewriteRule ^kontakt/?$ /kontakt.html [R=301,L]
+RewriteRule ^videos/?$ /resources/videos.html [R=301,L]
+RewriteRule ^spielfelder/?$ /resources/fields.html [R=301,L]
+RewriteRule ^loadout/?$ /resources/loadout.html [R=301,L]
+RewriteRule ^about/?$ /resources/about.html [R=301,L]
+RewriteRule ^blog/?$ /resources/blog/index.html [R=301,L]
