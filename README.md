@@ -24,9 +24,9 @@ This project serves as:
 
 ## 📂 Structure
 
-- `/assets` – images and media
-- `/css` – styling
-- `/js` – JavaScript functionality
+- `/resources/Media` – images and media
+- `/resources/style.css` – styling
+- `/resources/script.js` – JavaScript functionality
 
 ## 🚀 Run locally
 
