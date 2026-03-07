@@ -750,6 +750,7 @@ h3 {
 .teaser-fields-images__item img.fit-contain {
   object-fit: contain;
 }
+
 /* ---------- Mobile Nav (Burger + Drawer) ---------- */
 
 .header-inner {
