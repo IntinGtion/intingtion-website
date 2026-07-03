@@ -16,7 +16,7 @@
 </head>
 
 <body style='
-      --page-bg: url("/resources/Media/Chris &amp; Paddi Nah.webp");
+      --page-bg: url("/resources/Media/Chris &amp; Paddi Nah-w1280.webp");
     '>
   <a class="skip-link" href="#main-content">Zum Inhalt springen</a>
   <div class="site-wrapper">
@@ -126,8 +126,13 @@
             </div>
             <div class="loadout-item">
               <div class="loadout-item__media">
-                <img alt="ACP Tropic Plate Carrier" loading="lazy"
-                  src="/resources/Media/Chris PlattentraegerVorne.webp" />
+                <img alt="ACP Tropic Plate Carrier" loading="lazy" decoding="async"
+                  sizes="(max-width: 700px) 100vw, 500px"
+                  srcset="
+                    /resources/Media/Chris PlattentraegerVorne-w480.webp 480w,
+                    /resources/Media/Chris PlattentraegerVorne-w800.webp 800w
+                  "
+                  src="/resources/Media/Chris PlattentraegerVorne-w800.webp" />
               </div>
               <div class="loadout-item__content">
                 <h2>Plattenträger</h2>
