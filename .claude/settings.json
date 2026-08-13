@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "additionalDirectories": [
+      "c:\\Dev\\GitHub\\The Gentlemen-Website"
+    ],
+    "allow": [
+      "Bash(git commit -m ' *)"
+    ]
+  }
+}
